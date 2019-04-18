@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="./css/lib/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/lib/init.css">
+    <link rel="stylesheet" href="./css/shopCar.css">
+</head>
+
+<body>
+
+    <!-- 头部区域开始 -->
+    <div class="header">
+        <div class="container">
+            <div class="left">
+                <span class="login-info">您好！欢迎来到音平商城！</span>
+                <span class="login-tip">
+                    [
+                    <a href="#">请登陆</a>
+                    &nbsp;| &nbsp;
+                    <a href="#">免费注册</a>
+                    ]
+                </span>
+            </div>
+            <div class="right">
+                <ul class="list clearfix">
+                    <li class="my-yinping">
+                        <a href="#">
+                            <i class="fa fa-user"></i>
+                            &nbsp;我的音平&nbsp;
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+                        <div class="my-msg">
+                            <a href="#">我的订单</a>
+                            <a href="#">我的收藏</a>
+                            <a href="#">我要评价</a>
+                            <a href="#">我的优惠券</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-shopping-cart"></i>
+                            &nbsp;我的购物车
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-heart"></i>
+                            &nbsp;企业采购&nbsp;
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="./images/shopCar/header.gif" class="contact-gif"></img>
+                            客服服务
+                        </a>
+                        <div class="contact-box">
+                            <div class="top">
+                                <img src="./images/shopCar/contact.png" alt="联系我们">
+                                <a href="#">在线客服</a>
+                                <span>在线时间：08:30 - 23:00</span>
+                            </div>
+                            <div class="mid"></div>
+                            <div class="bottom"></div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- 头部区域结束 -->
+
+    <script src="./js/lib/jquery-3.3.1.js"></script>
+    <script src="./js/shopCar.js"></script>
+</body>
+
+</html>

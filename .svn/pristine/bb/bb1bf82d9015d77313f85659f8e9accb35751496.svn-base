@@ -1,0 +1,117 @@
+/* 网页header区域开始 */
+.header{
+    height: 36px;
+    line-height: 36px;
+    border-bottom: 1px solid #EDEEF0;
+    background-color: #FCFCFC;
+    font-family: "Microsoft YaHei", SimSun;
+    font-size: 12px;
+}
+.header .container{
+    width: 1210px;
+}
+
+/* 网页header左侧区域开始 */
+.header .left{
+    float: left;
+    height: 100%;
+    /* background-color: blue; */
+}
+.header .left span.login-info{
+    color: #666;
+}
+.header .left span.login-tip{
+    color: #ddd;
+}
+.header .left span.login-tip a{
+    color: #ff6600;
+}
+.header .left span.login-tip a:hover{
+    text-decoration: underline;
+}
+/* 网页header左侧区域结束 */
+
+/* 网页header右侧区域开始 */
+.header .right{
+    float: right;
+    height: 100%;
+}
+.header .right .list li{
+    float: left;
+    position: relative;
+}
+.header .right .list li:hover > a{
+    color: #ff6600;
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+}
+.header .right .list li  a{
+    display: block;
+    height: 14px;
+    line-height: 16px;
+    padding: 10px 20px;
+    border: 1px solid #fcfcfc;
+    color: black;
+}
+.header .right .list li  a i{
+    font-size: 12px;
+}
+.header .right .list li .my-msg{
+    position: absolute;
+    left: 0;
+    top: 36px;
+    width: 122px;
+    display: none;
+}
+.header .right .list li .my-msg a{
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+}
+.header .right .list li .my-msg a:hover{
+    color: #ff6600;
+}
+.header .right .my-yinping:hover .my-msg{
+    display: block;
+}
+.header .right .contact-gif{
+    vertical-align: middle;
+}
+.header .right .contact-box{
+    position: absolute;
+    right: 0;
+    top: 36px;
+    width: 250px;
+    box-sizing: border-box;
+    border: 1px solid #eaeaea;
+    padding: 10px;
+}
+.header .contact-box .top{
+    position: relative;
+    height: 130px;
+    padding: 0 10px;
+}
+.header .contact-box .top img{
+    width: 100px;
+}
+.header .right .contact-box .top a{
+    position: absolute;
+    right: 43px;
+    top: 43px;
+    background-color: #ff6600;
+    font-size: 14px;
+    height: 14px;
+    border: none !important;
+    border-radius: 30px;
+    color: white !important;
+    padding: 8px 10px !important;
+    text-align: center;
+    line-height: 14px;
+}
+.header .right .contact-box .top span{
+    position: absolute;
+    left: 50px;
+    bottom: 18px;
+    color: #666;
+    font-size: 12px;
+}
+/* 网页header右侧区域结束 */
